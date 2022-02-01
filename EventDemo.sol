@@ -13,4 +13,8 @@ contract EventDemo {
         count++;
         emit ShowCount(count);
     }
+    
+    function messageParam() public payable returns (address, uint) {
+        return (msg.sender, msg.value);
+    }
 }

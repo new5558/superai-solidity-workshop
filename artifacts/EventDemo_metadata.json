@@ -30,6 +30,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "messageParam",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +78,11 @@
 	},
 	"sources": {
 		"EventDemo.sol": {
-			"keccak256": "0x3318b142123db642f00f92ec5529ce6e8a1504d8418ef59d2bd28aa40102c12f",
+			"keccak256": "0xdb3f2d4593f8ec86898be05663c4156575d02d41ef98f345974d85a223048159",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5edc37b8569bbbb82bb9d14ce8634bafa67af859bb6070086462e8fbdc09eab",
-				"dweb:/ipfs/QmWo2pXqAcENrT7guFi8wArCfhvrRdhCw9PzSHTvZE7Ghy"
+				"bzz-raw://9cbaf00322d97cfdedcbddb4d701fe3b9b1ff544d84467807b66ab3a26540deb",
+				"dweb:/ipfs/QmSjBsY3LxdZyHuuvuzhnq1RRM3Q1h47ZrT2emtr4wqPgC"
 			]
 		}
 	},
