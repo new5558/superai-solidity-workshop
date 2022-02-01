@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ShowCount",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_count",
+						"type": "uint256"
+					}
+				],
+				"name": "foo1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EventDemo.sol": "EventDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EventDemo.sol": {
+			"keccak256": "0x3318b142123db642f00f92ec5529ce6e8a1504d8418ef59d2bd28aa40102c12f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5edc37b8569bbbb82bb9d14ce8634bafa67af859bb6070086462e8fbdc09eab",
+				"dweb:/ipfs/QmWo2pXqAcENrT7guFi8wArCfhvrRdhCw9PzSHTvZE7Ghy"
+			]
+		}
+	},
+	"version": 1
+}
